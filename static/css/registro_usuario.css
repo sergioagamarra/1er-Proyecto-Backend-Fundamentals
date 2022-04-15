@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24303c;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+header h1{
+    font-size: 25px;
+}
+
+.logo{
+    cursor: pointer;
+    height: 60px;
+    width: auto;
+}
+
+
+/* Body   */
+body {
+    background: radial-gradient( #B9C69A,#37729E) no-repeat center center fixed;
+}
+
+main {
+    display: flex;  
+}
+
+/* Formulario */
+.form-register {
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: 50px;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 10px 27px #000;
+    font-family: "Montserrat", sans-serif;
+ }
+  
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+  
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+.controls:focus, .controls[type]:focus{
+    border: 1px solid #2fb4cc;
+    outline: 0 none;
+}
+  
+.form-register p {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+}
+  
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+  
+.form-register a:hover {
+    color: #2fb4cc;
+    text-decoration: underline;
+}
+  
+.form-register .botons {
+    width: 100%;
+    background: #2fb4cc;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* TABLA */
+#table-container{
+    margin: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
+	width: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+    box-shadow: 7px 10px 27px #000;
+}
+
+th, td{
+	padding: 20px;
+    
+}
+.boton_center{
+    text-align: center;
+}
+
+thead{
+	background-color: #24303c;
+	/* border-bottom: solid 5px #2fb4cc; */
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #2fb4cc;
+	color: white;
+}
+
+/* .boton_table{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #24303c;
+	border: 1px solid #24303c;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.boton_table:hover{
+    background-color: #24303c;
+    color: white;
+} */
+
+.boton_register{
+    border: transparent;
+    background-color: transparent;
+}
+
+.logo_table{
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #24303c;
+	height: auto;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 40px;
+	color: white;
+}
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 50px;
+}
+
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0 50px 0;
+}
+
+.socials li{
+	margin: 0 10px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: white;
+}
+
+.socials a i{
+	font-size: 30px;
+	transition: color .4s ease;
+}
+
+.socials a:hover i{
+	color: #2fb4cc;
+}
+
+.footer-bottom{
+	background: #000;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom span{
+	text-transform: uppercase;
+	color: #2fb4cc;
+	font-weight: 200;
+}

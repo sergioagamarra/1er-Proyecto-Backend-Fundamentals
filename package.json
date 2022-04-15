@@ -1,0 +1,32 @@
+{
+  "name": "1er-proyecto-backend-fundamentals",
+  "version": "1.0.0",
+  "description": "Primer Proyecto Bootcamp Tzuzul Backend básico",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliarestrada/1er-Proyecto-Backend-Fundamentals.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Sergio Gamarra Natalia Estrada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nataliarestrada/1er-Proyecto-Backend-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/nataliarestrada/1er-Proyecto-Backend-Fundamentals#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
